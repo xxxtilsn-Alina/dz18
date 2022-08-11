@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.headr {
+  height: 100vh;
+  background-image: url("./flowers-yellow-flowers-black-background-digital-art-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 130px;
+  height: 1vw;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.4s;
+  border: 2px solid rgb(71, 69, 69);
+}
+
+.menu-btn:hover {
+  background-color: rgb(97, 83, 182);
+}
+
+.menu {
+  width: 1348px;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  gap: 40px;
+  margin: auto;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  background-color: palevioletred;
+  display: inline;
+  border-radius: 5px;
+  transition: 0.04s;
+}
+
+.logo:hover {
+  background-color: rgb(173, 17, 69);
+}
+
+.content {
+  text-align: center;
+  margin-top: 250px;
+  color: white;
+}
+
+.center {
+  font-size: 60px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 70px;
+  margin-top: 55px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.p {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: darkslateblue;
+}
